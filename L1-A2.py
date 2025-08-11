@@ -28,6 +28,13 @@ print(my_dict)
 #access a particular element
 print("address: ", my_dict.get('address'))
 
+
+dict_keys_object = my_dict.keys()
+print(dict_keys_object)
+
+all_values = my_dict.values()
+print(all_values)
+
 #remove all elemnts
 my_dict.clear()
 print(my_dict)
